@@ -66,12 +66,15 @@ main {
 
 .top__text h1 {
   font-size: 1.5rem;
-  @media (max-width: 700px) {
-    font-size: 1.1rem;
-  }
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
 
-.top__text span {
+
+.heading {
   font-size: 1.3rem;
   font-weight: 500;
   @media (max-width: 700px) {
